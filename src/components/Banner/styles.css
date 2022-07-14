@@ -1,0 +1,45 @@
+.content-banner {
+  margin-top: 5%;
+}
+
+.single-line {
+  display: flex;
+}
+
+.content-banner h1 {
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  font-size: 112px;
+  font-weight: 400;
+}
+
+.content-banner h1.title-single-line {
+  margin-right: 2rem;
+}
+
+/* SMALL */
+@media screen and (max-width: 1023px) {
+  .content-banner h1 {
+    font-size: 32px;
+  }
+
+  .content-banner h1.title-single-line {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .content-banner h1 {
+    font-size: 72px;
+  }
+
+  .content-banner h1.title-single-line {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .content-banner h1 {
+    font-size: 148px;
+  }
+}
